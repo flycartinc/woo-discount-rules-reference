@@ -66,7 +66,12 @@
 ### Product Options / Addons
 #### WooCommerce TM Extra Product Options [by ThemeComplete]
 * Exclude option products from apply discounts (not takes its quantities)  
-  Snippet: https://gist.github.com/AnanthFlycart/6ddd9a592d7bf64ed9abfe0250d37685  
+  Snippet: https://gist.github.com/AnanthFlycart/6ddd9a592d7bf64ed9abfe0250d37685 
+  #### WooCommerce Extra Product Options Pro [by ThemeHigh]
+* Display product price in product page when exclude add-on price from apply discount  
+  Snippet: https://gist.github.com/kirubaFlycart/c320052d859bf9f950ff5d6b022de172
+* Exclude add-on price from apply discount
+  Snippet: https://gist.github.com/kirubaFlycart/e1876d6d59d2aa45c355ff9b86e3a77d
 #### Extra Product Options Builder for WooCommerce [by RedNao]
 * Apply discount only the product (base) price  
   Snippet: https://gist.github.com/AnanthFlycart/77849ec083ea7e4c83347933a8a6fa4f
