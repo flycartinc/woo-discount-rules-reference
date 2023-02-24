@@ -32,7 +32,7 @@ add_filter('advanced_woo_discount_rules_discount_prices_of_product', function ($
     return $discount_prices;
 }, 10, 4);
 
-// Change dicount price not strikeout
+// Change discount price not strikeout
 add_filter('advanced_woo_discount_rules_discount_prices_of_product', function ($discount_prices, $product, $quantity, $cart_item){
     //FOR CHANGING DISCOUNTED_PRICE you can change it in $discount_prices['discounted_price']
     if(isset($discount_prices['discounted_price'])){
@@ -45,3 +45,16 @@ add_filter('advanced_woo_discount_rules_discount_prices_of_product', function ($
 add_filter('advanced_woo_discount_rules_run_discount_rules', function ($val){
     return false;
 }, 10);
+
+// Remove coupon
+
+// Don't add free product
+
+// Don't add free shipping
+
+// Remove thirdparty coupon option enabled but not remove that.
+
+// Change coupon name
+
+// Change coupon value
+
