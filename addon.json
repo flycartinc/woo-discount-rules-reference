@@ -1,0 +1,41 @@
+{
+  "collections": {
+    "name": "Collections",
+    "description": "It allows you to create your favourite filter collection and use it in any rules.",
+    "icon_url": "https://www.flycart.org/wp-content/uploads/2022/06/woocommerce_discount_rules_preview.png",
+    "product_url": "https://www.flycart.org/products",
+    "download_url": "",
+    "plugin_file": "wdr-collections/wdr-collections.php",
+    "page_url": "{wdr_page}&tab=collections",
+    "settings_url": "",
+    "requires_core": "2.4.4",
+    "requires_pro": "2.4.4",
+    "is_pro": false
+  },
+  "omnibus_directive": {
+    "name": "Omnibus Directive",
+    "description": "It helps to display the lowest price of a product for the last n days.",
+    "icon_url": "https://www.flycart.org/wp-content/uploads/2022/06/woocommerce_discount_rules_preview.png",
+    "product_url": "https://www.flycart.org/products",
+    "download_url": "",
+    "plugin_file": "wdr-omnibus-directive/wdr-omnibus-directive.php",
+    "page_url": "{addon_page}",
+    "settings_url": "{addon_page}&section=settings",
+    "requires_core": "2.5.0",
+    "requires_pro": "",
+    "is_pro": false
+  },
+  "additional_filters": {
+    "name": "Additional Filters",
+    "description": "It helps to load extra filters in rules.",
+    "icon_url": "https://www.flycart.org/wp-content/uploads/2022/06/woocommerce_discount_rules_preview.png",
+    "product_url": "https://www.flycart.org/products",
+    "download_url": "",
+    "plugin_file": "wdr-additional-filters/wdr-additional-filters.php",
+    "page_url": "",
+    "settings_url": "{addon_page}&section=settings",
+    "requires_core": "2.5.0",
+    "requires_pro": "2.5.0",
+    "is_pro": true
+  }
+}
