@@ -401,5 +401,8 @@
 * Exclude out of stock products from apply discounts  
   Snippet: https://gist.github.com/AnanthFlycart/66ffce5668f8172bd692075acde9d654  
 
+### Set Discount
+* Handle set discount on having low price for few item
+  Snippet: https://gist.github.com/AshlinRejo/6d95675a4dfd8fce6f912da72bb1335a
 
 Last modified at: 22-11-2022 02:58PM
