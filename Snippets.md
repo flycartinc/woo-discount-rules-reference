@@ -362,6 +362,8 @@
 ### Applied rule message
 * Remove messages on Checkout page  
   Snippet: https://gist.github.com/AnanthFlycart/d0b500bb0fd74cc20db854e817be04be  
+* Decrease showAppliedRulesMessages event priority  
+  Snippet: https://gist.github.com/kirubaFlycart/cf79401806f1bad1eed6679b2c33db78
 
 ### You saved message 
 * To display You Saved message as Row in Cart Totals and Order Review (includes default discounts)  
