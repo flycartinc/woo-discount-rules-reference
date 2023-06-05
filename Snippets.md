@@ -123,10 +123,17 @@
 * For BXGY coupon based rule  
   Snippet: https://gist.github.com/AshlinRejo/062f8009482f2d3c5dda476e1657f166  
 
+### Currency Switcher
+#### Currency Switcher for WooCommerce [by WP Wham]
+* Compatible for Currency Switcher for WooCommerce to check subtotal based condition (By WP Wham)    
+  Snippet: https://gist.github.com/kirubaFlycart/5417982a75a8e79336c1b869cd84568e
+
 ### Page Builder
 #### JetWooBuilder For Elementor [by Crocoblock]
 * Show discount percentage  
   Snippet: https://gist.github.com/AnanthFlycart/a5b128de61af5ebcbf8f2af95c46fcb7
+* Sale badge not enabled for JetWooBuilder For Elementor plugin issue  
+  Snippet: https://gist.github.com/kirubaFlycart/41854ab8b211e6b05707e589180ac202
 #### WPGridBuilder [by GridBuilderWP]
 * To add Product Price block (custom)  
   Snippet: https://gist.github.com/AnanthFlycart/8052f1e2bbb578311920d5a70635360f  
@@ -147,6 +154,9 @@
 * Improved compatibility  
   Snippet: https://gist.github.com/AnanthFlycart/8648d9a2eb984b1e2c04a9f57fc152a6  
   Note: Disable inbuilt compatibility of WooCommerce Wholesale Prices in order to work  
+#### CartPops Pro [by CartPops Pro]
+* Fix mini cart update issue for CartPops Pro plugin  
+  Snippet: https://gist.github.com/kirubaFlycart/66a29a4cb4a2b7faf741134bb6428bfd
 #### Woocommerce Side Cart Premium [by XootiX]
 * Fix strikeout and discount not shown correctly  
   Snippet: https://gist.github.com/AnanthFlycart/2500583086fe2d32caccecc012d2f8ae  
@@ -226,6 +236,10 @@
 
 ### Coupon & Fee
 #### Coupon
+* Exclude to remove some woocommerce coupons while disable the coupons (discount rules will work)    
+  Snippet: https://gist.github.com/kirubaFlycart/4425471642517bc28a3b82fbb525954a
+* Change the coupon does not exist message for specific coupons  
+  Snippet: https://gist.github.com/kirubaFlycart/a94772042fa1963972c70499fc9e2597
 #### Fee
 * Remove subtract tax from fee (when entered price including tax)  
   Snippet: https://gist.github.com/AnanthFlycart/62f73bb294c6ddb0f437b308fc5794dd  
@@ -235,6 +249,8 @@
 ### Free Shipping
 * Not working with Payment method condition (Free shipping is always shows)  
   Snippet: https://gist.github.com/AnanthFlycart/3aed079dc8ca2cbcc06766915e9d63ad  
+* Set all shipping price to 0 when free shipping is applied from discount rules  
+  Snippet: https://gist.github.com/kirubaFlycart/ec17f35e8347b1643adaeef5e5ef8be3
 
 ### BOGO
 #### Free
@@ -262,6 +278,8 @@
 #### Common
 * Increase search results limit (to 50)  
   Snippet: https://gist.github.com/AshlinRejo/4700227e045532af2ca45f69f30c119f  
+* Calculate discount from sale price for specific products (when set calculate discount from regular price)  
+  Snippet: https://gist.github.com/kirubaFlycart/370e1fb5f253f0157a24cad1bac847e2
 #### Filter
 * Bands are listed in Custom Taxonomy filter  
   Snippet: https://gist.github.com/AnanthFlycart/218d9424a9e5579a94a465828fc149e7  
@@ -279,6 +297,8 @@
 #### Assets
 * Increase priority of front-end assets load (enqueue)  
   Snippet: https://gist.github.com/AnanthFlycart/1bdaa832a42ba2de08624792fa1477c7  
+* Run cron hourly  
+  Snippet: https://gist.github.com/kirubaFlycart/fc5dc16b3d2f54f233577858ce850852
 
 
 ## Customization
@@ -297,6 +317,8 @@
   Snippet: https://gist.github.com/AnanthFlycart/b4cd44ea6538a23b1d347569317cb61f  
 * Disable sale badge for Shipping rule  
   Snippet: https://gist.github.com/AnanthFlycart/78e00ebf221eb40a4bcc23417f578206  
+* Exclude sale badge for specific rules  
+  Snippet: https://gist.github.com/kirubaFlycart/6e249592512ff9c41ab453139e03413f
 * To show rule tile in sale badge  
   Snippet: https://gist.github.com/AnanthFlycart/e2a19cc746c8dfa42631bf9c290f48e5  
   Shortcode: {{title}}  
@@ -374,6 +396,10 @@
 ### Cross-sell
 * Display Cross-sell on after cart  
   Snippet: https://gist.github.com/AshlinRejo/c87812352f1f694824153d065fba3f05  
+* Load Cross-sell products in product page
+  Snippet: https://gist.github.com/kirubaFlycart/64378c7843115a3d7b932f006fb90670
+* Load the Cross-sell products in mini cart  
+  Snippet: https://gist.github.com/kirubaFlycart/f18b84fb4fb4e8da38bf99bf13a820b9
 
 ### Discount Label
 * Hide Discount Free label  
