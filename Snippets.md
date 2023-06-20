@@ -62,7 +62,9 @@
 #### WooCommerce Wholesale Prices [by Rymera Web Co]
 * Sale badge percentage based on wholesale price  
   Snippet: https://gist.github.com/AnanthFlycart/4b57448ecee33137be3dc178b2967c99
-
+#### Facebook for woocommerce (withtax)
+* Fix Show the discounted price without tax issue
+* Snippet: https://gist.github.com/sarancartrabbit/b888414d7c198799b8037a58ae7763d3
 ### Product Options / Addons
 #### WooCommerce TM Extra Product Options [by ThemeComplete]
 * Exclude option products from apply discounts (not takes its quantities)  
