@@ -257,6 +257,8 @@
   Snippet: https://gist.github.com/AnanthFlycart/f51fe7047e2b7ca2713a2d915afa6400  
 * Exclude product from apply cheapest discount rule  
   Snippet: https://gist.github.com/AshlinRejo/48146b30c743e8e2a6a98772e56e8ae7
+* Exclude on-sale products from apply cheapest discount rule  
+  Snippet: https://gist.github.com/kirubaFlycart/db70e87e9a70dd77f2afd0434b684048
 
 ### Rule
 #### Common
