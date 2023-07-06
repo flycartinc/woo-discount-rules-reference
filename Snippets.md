@@ -173,6 +173,9 @@
 #### WPC Composite Products for WooCommerce [by WPClever]
 * Exclude child items from apply discounts (not takes its quantities)  
   Snippet: https://gist.github.com/AshlinRejo/24bd342db913580fd06e97109914df72
+#### Flexible Shipping [by Octolize]
+* Fix cart update loading issue when updating cart (Decrease showAppliedRulesMessages event priority)  
+  Snippet: https://gist.github.com/kirubaFlycart/cf79401806f1bad1eed6679b2c33db78
 
 
 ## Fixes
