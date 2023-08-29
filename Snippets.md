@@ -37,6 +37,9 @@
 #### WooCommerce Unit Of Measure [by Bradley Davis]
 * Unit (in suffix) is not shown  
   Snippet: https://gist.github.com/AnanthFlycart/efd462a19ac1c862df9d16bc314ac303  
+#### Ray core theme
+* Same price strikeout issue  
+  Snippet: https://gist.github.com/kirubaFlycart/02e771a45db7aded579190d709e84824
 
 ### Sale badge
 #### Woodmart [Theme]
@@ -68,11 +71,13 @@
 ### Product Options / Addons
 #### WooCommerce TM Extra Product Options [by ThemeComplete]
 * Exclude option products from apply discounts (not takes its quantities)  
-  Snippet: https://gist.github.com/AnanthFlycart/6ddd9a592d7bf64ed9abfe0250d37685 
-  #### WooCommerce Extra Product Options Pro [by ThemeHigh]
+  Snippet: https://gist.github.com/AnanthFlycart/6ddd9a592d7bf64ed9abfe0250d37685  
+* Dynamic strikeout issue (fix by change the variable product quantity update target)  
+  Snippet: https://gist.github.com/kirubaFlycart/201df1b5c296a842b39369d92cac4267  
+#### WooCommerce Extra Product Options Pro [by ThemeHigh]
 * Display product price in product page when exclude add-on price from apply discount  
   Snippet: https://gist.github.com/kirubaFlycart/c320052d859bf9f950ff5d6b022de172
-* Exclude add-on price from apply discount
+* Exclude add-on price from apply discount  
   Snippet: https://gist.github.com/kirubaFlycart/e1876d6d59d2aa45c355ff9b86e3a77d
 #### Extra Product Options Builder for WooCommerce [by RedNao]
 * Apply discount only the product (base) price  
@@ -175,7 +180,10 @@
   Snippet: https://gist.github.com/AshlinRejo/24bd342db913580fd06e97109914df72
 #### Flexible Shipping [by Octolize]
 * Fix cart update loading issue when updating cart (Decrease showAppliedRulesMessages event priority)  
-  Snippet: https://gist.github.com/kirubaFlycart/cf79401806f1bad1eed6679b2c33db78
+  Snippet: https://gist.github.com/kirubaFlycart/cf79401806f1bad1eed6679b2c33db78  
+#### Rank Math SEO [by Rank Math]
+* Compatibility for Rank Math SEO by Rank Math  
+  Snippet: https://gist.github.com/kirubaFlycart/e2990402cc5e672c5dafbefd5ad06dcd
 
 
 ## Fixes
@@ -245,6 +253,8 @@
   Snippet: https://gist.github.com/kirubaFlycart/4425471642517bc28a3b82fbb525954a
 * Change the coupon does not exist message for specific coupons  
   Snippet: https://gist.github.com/kirubaFlycart/a94772042fa1963972c70499fc9e2597
+* Exclude removing specific (start with) coupons from woocommerce while disabling woocommerce coupons using discount rules  
+  Snippet: https://gist.github.com/kirubaFlycart/c4f78e7e5af291942cb054c091f1a342
 #### Fee
 * Remove subtract tax from fee (when entered price including tax)  
   Snippet: https://gist.github.com/AnanthFlycart/62f73bb294c6ddb0f437b308fc5794dd  
@@ -255,7 +265,9 @@
 * Not working with Payment method condition (Free shipping is always shows)  
   Snippet: https://gist.github.com/AnanthFlycart/3aed079dc8ca2cbcc06766915e9d63ad  
 * Set all shipping price to 0 when free shipping is applied from discount rules  
-  Snippet: https://gist.github.com/kirubaFlycart/ec17f35e8347b1643adaeef5e5ef8be3
+  Snippet: https://gist.github.com/kirubaFlycart/ec17f35e8347b1643adaeef5e5ef8be3  
+* Change the free shipping label into applied free shipping rule title  
+  Snippet: https://gist.github.com/kirubaFlycart/0260f0d7ed432266dc9b231f8adb53e3  
 
 ### BOGO
 #### Free
@@ -277,7 +289,9 @@
 * Change variant list is shown only parent product name (without variants details)  
   Snippet: https://gist.github.com/AnanthFlycart/f51fe7047e2b7ca2713a2d915afa6400  
 * Exclude product from apply cheapest discount rule  
-  Snippet: https://gist.github.com/AshlinRejo/48146b30c743e8e2a6a98772e56e8ae7
+  Snippet: https://gist.github.com/AshlinRejo/48146b30c743e8e2a6a98772e56e8ae7  
+* Exclude on sale products from apply discount  
+  Snippet: https://gist.github.com/kirubaFlycart/db70e87e9a70dd77f2afd0434b684048  
 
 ### Rule
 #### Common
@@ -323,16 +337,22 @@
 * Disable sale badge for Shipping rule  
   Snippet: https://gist.github.com/AnanthFlycart/78e00ebf221eb40a4bcc23417f578206  
 * Exclude sale badge for specific rules  
-  Snippet: https://gist.github.com/kirubaFlycart/6e249592512ff9c41ab453139e03413f
+  Snippet: https://gist.github.com/kirubaFlycart/6e249592512ff9c41ab453139e03413f  
 * To show rule tile in sale badge  
   Snippet: https://gist.github.com/AnanthFlycart/e2a19cc746c8dfa42631bf9c290f48e5  
   Shortcode: {{title}}  
+* Disable the Sale badge on the shop page  
+  Snippet: https://gist.github.com/kirubaFlycart/cd7b77213e966aebfb23ee6634fa6b31  
+* Change the sale badge position to before add to cart form  
+  Snippet: https://gist.github.com/kirubaFlycart/daf1ba70ae1d7b89a253e6901c96e45c
 
 ### Strikeout
 * Show strikeout one by one  
   Snippet: https://gist.github.com/AnanthFlycart/10005f62d1f3133d10d1802ab0d8d7ee  
 * Show only discounted price (without strikeout or original price)  
   Snippet: https://gist.github.com/AnanthFlycart/e815d897b5a5d8e96598eec65fc414f7  
+* Increase variable strikeout priority and display only minimum price  
+  Snippet: https://gist.github.com/kirubaFlycart/3d672fb66bdfa7e53a22157b39e3c914  
 * Display only minimum price of variable price range (ie, From: minimum price)  
   Snippet: https://gist.github.com/AshlinRejo/80460890f322adf5ee88f1a9dcc84a20  
 * Display only minimum price of variable price range (ie, Fr: minimum price)  
@@ -346,6 +366,8 @@
 * To load product price via shortcode  
   Snippet: https://gist.github.com/AnanthFlycart/22476c6201cd72e228e29188ff503064  
   Shortcode: [awdr_product_price]  
+* Show custom text in price html for bulk discount rule applied products  
+  Snippet: https://gist.github.com/kirubaFlycart/6b5d4d9f32ac45a5581abb8fff41ec1c
 
 ### Dynamic Price
 * Change the dynamic strikeout class target for variant (variable product page)  
@@ -367,8 +389,12 @@
 * To load discount bar via Shortcode  
   Snippet: https://gist.github.com/AnanthFlycart/a28595cf5085a5d9ea0bc04a6f218682  
   Shortcode: [awdr_discount_bar]  
-* To load discount table or bar manually
+* To load discount table or bar manually  
   Example: https://gist.github.com/AshlinRejo/c5bafb1c44f5aa6662452d3eace5ce90  
+* Show Discount bar only on product page  
+  Snippet: https://gist.github.com/kirubaFlycart/152d2172dc9556105dafc254e7bbebd8  
+* Example to customize and change discount bar message dynamically  
+  Example: https://gist.github.com/kirubaFlycart/cc99016bc06d01bd4c76112ec659a265  
 
 ### Discount Table
 * Disable discount table for specific rules  
@@ -378,17 +404,27 @@
 * Show only minimum range with + (by template override)  
   Code: https://gist.github.com/AshlinRejo/1c3cc51d74717fd03fa89d9387e78baf  
   Note: Suggest to copy the above code and paste to the following filepath  
-  File path: /wp-content/themes/**current_theme**/advanced_woo_discount_rules/discount_table.php
+  File path: /wp-content/themes/**current_theme**/advanced_woo_discount_rules/discount_table.php  
+* Load Discount table using shortcode  
+  Snippet: https://gist.github.com/kirubaFlycart/ef407fc8239cc10193b374a509589466  
+  Shortcode: [awdr_discount_table]  
+* Show discount table only on product page  
+  Snippet: https://gist.github.com/kirubaFlycart/dd798c1bce980557a647cbbdb1298ee6
 
 ### Promotional Message
 * Display message on product page (before Add to Cart button)  
   Snippet: https://gist.github.com/AnanthFlycart/9f13bf8787174601a2bfcb9c6a7d7e9d
 * Display message on mini-cart  
   Snippet: https://gist.github.com/AnanthFlycart/150898563cf632209ffe4e96ab7ff5a9  
+* To load promotional message via shortcode  
+  Snippet: https://gist.github.com/kirubaFlycart/4ce80c564469f4f61d57cf5608fdcc09  
+  Shortcode: [awdr_promotional_message]  
 
-### Applied rule message
+### Rule applied message
 * Remove messages on Checkout page  
   Snippet: https://gist.github.com/AnanthFlycart/d0b500bb0fd74cc20db854e817be04be  
+* Increase promotion message priority for show rule applied message first in cart page  
+  Snippet: https://gist.github.com/kirubaFlycart/d068693c41697fce5e56cbc0c5b1a33e
 
 ### You saved message 
 * To display You Saved message as Row in Cart Totals and Order Review (includes default discounts)  
@@ -401,10 +437,18 @@
 ### Cross-sell
 * Display Cross-sell on after cart  
   Snippet: https://gist.github.com/AshlinRejo/c87812352f1f694824153d065fba3f05  
-* Load Cross-sell products in product page
+* Load Cross-sell products in product page  
   Snippet: https://gist.github.com/kirubaFlycart/64378c7843115a3d7b932f006fb90670
 * Load the Cross-sell products in mini cart  
   Snippet: https://gist.github.com/kirubaFlycart/f18b84fb4fb4e8da38bf99bf13a820b9
+* Change the Cross-sell products heading text  
+  Snippet: https://gist.github.com/kirubaFlycart/db98557d00e748459675012a400a8f2d  
+* Display Cross-sell on after cart table  
+  Snippet: https://gist.github.com/kirubaFlycart/2bd9ece5e584a7b8cef4e4ae9bdea0e5  
+* Example to get cross-sell product ids and details  
+  Example: https://gist.github.com/kirubaFlycart/f7a9d277e671e634aee7d2d7947ffdc9  
+* Remove cross-sell block after add the discounted product in cart  
+  Snippet: https://gist.github.com/kirubaFlycart/f3ea8cbf8cf234c610151d88f5ccdb78
 
 ### Discount Label
 * Hide Discount Free label  
@@ -434,6 +478,12 @@
 
 ### Set Discount
 * Handle set discount on having low price for few item
-  Snippet: https://gist.github.com/AshlinRejo/6d95675a4dfd8fce6f912da72bb1335a
+  Snippet: https://gist.github.com/AshlinRejo/6d95675a4dfd8fce6f912da72bb1335a  
 
-Last modified at: 22-11-2022 02:58PM
+### Javascript
+* Load site_main js only on product and checkout page  
+  Snippet: https://gist.github.com/kirubaFlycart/052725898bc043562911b206e10ec911  
+* Enable scripts only for product, category, shop, cart and checkout pages  
+  Snippet: https://gist.github.com/kirubaFlycart/88ef02759f30c72b0b0ca67512744dc6
+
+Last modified at: 29-08-2023 01:00PM
